@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/react-post-system1/static/css/main.80c0dbad.css",
+    "main.js": "/react-post-system1/static/js/main.48e019e9.js",
+    "static/js/453.0c55ffa8.chunk.js": "/react-post-system1/static/js/453.0c55ffa8.chunk.js",
+    "static/media/img5.png": "/react-post-system1/static/media/img5.22b1244b8da76ad78be4.png",
+    "static/media/img4.png": "/react-post-system1/static/media/img4.6efc3e8e20866338cea5.png",
+    "static/media/img3.png": "/react-post-system1/static/media/img3.991e5ff93bceba8077e5.png",
+    "static/media/img6.png": "/react-post-system1/static/media/img6.1efbe68ec82cb394d79c.png",
+    "static/media/img1.png": "/react-post-system1/static/media/img1.987a2d702c6beb3d5332.png",
+    "static/media/img2.png": "/react-post-system1/static/media/img2.4224d157fb4716adfc93.png",
+    "static/media/logo.svg": "/react-post-system1/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/react-post-system1/index.html",
+    "main.80c0dbad.css.map": "/react-post-system1/static/css/main.80c0dbad.css.map",
+    "main.48e019e9.js.map": "/react-post-system1/static/js/main.48e019e9.js.map",
+    "453.0c55ffa8.chunk.js.map": "/react-post-system1/static/js/453.0c55ffa8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.80c0dbad.css",
+    "static/js/main.48e019e9.js"
+  ]
+}
