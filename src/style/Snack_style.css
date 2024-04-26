@@ -1,0 +1,47 @@
+.snack-card{
+    /*background-color: grey;*/
+    width: 100%;
+    height: 70%;
+    display: grid;
+    grid-template-columns: repeat(3, 0.1fr);
+    gap: 10px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.snack-detail{
+    background-color: white;
+    width: 100%;
+    box-shadow: 10px 10px 10px 10px rgba(0,0,0,0.1);
+    border-radius: 10px;
+}
+
+.snack-detail img{
+    width: 150px;
+    height: 80%;
+    margin: 2vh;
+}
+
+.snack-detail h3{
+    margin-bottom: 2px;
+    padding: 5px;
+}
+
+.snack-detail p{
+    margin-bottom: 1px;
+}
+.snack-detail .snack-button{
+    width: 50%;
+    height: 3vh;
+    background-color: rgb(15, 49, 15);
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    margin-bottom: 3vh;
+}
+
+.snack-detail .snack-button:hover{
+    background-color: white;
+    color: rgb(15, 49, 15);
+    border: 1px solid rgb(15, 49, 15);
+}

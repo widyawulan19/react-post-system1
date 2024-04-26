@@ -1,0 +1,22 @@
+.pos-container{
+    background-color: rgb(235, 227, 227);
+    display: flex;
+}
+
+.pos-katalog{
+    background-color: grey;
+    width: 70%;
+}
+.pos-katalog button{
+    width: 20%;
+    height: 5vh;
+    background-color: rgb(15, 49, 15);
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+
+table input{
+    width: 20%;
+}

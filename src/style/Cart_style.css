@@ -1,0 +1,133 @@
+/* Tambahkan gaya untuk tabel */
+.table-container {
+    font-family: Arial, sans-serif;
+    margin-top: 5%;
+    padding: 1vh;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  table th, table td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  table th {
+    background-color: #f2f2f2;
+  }
+  
+  /* Gaya untuk tombol */
+  table button {
+    background-color: white;
+    border-radius: 50%;
+    color: rgb(15, 49, 15);
+    border: 1px solid rgb(15, 49, 15);
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+    margin: 2px 2px;
+    cursor: pointer;
+  }
+  
+  .remove-btn{
+    border: 0.5px solid red;
+    border-radius: 5px;
+    background-color: red;
+    color: white;
+  }
+  /* Gaya untuk input */
+  table input {
+    width: 20px;
+    text-align: center;
+    border: none;
+    font-size: 13px;
+  }
+/* discount */
+.discount{
+  background-color: white;
+  border-left: 2px solid rgb(15, 49, 15);
+  box-shadow: 10px 10px 10px 10px rgba(0,0,0,0.1);
+  width: 50%;
+  height: 7vh;
+  border-radius: 3px;
+  display: flex;
+  padding-left: 2vh;
+}
+.discount input{
+  width: 25%;
+  height: 25%;
+  margin-top: 2.5vh;
+  margin-left: 2vh;
+  border-radius: 2px;
+  /*box-shadow: 10px 10px 10px 10px rgba(0,0,0,0.1);*/
+  border: 1px solid rgb(15, 49, 15);
+  text-align: center;
+  font-weight: bold;
+}
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0; /* Atur margin sesuai kebutuhan */
+}
+
+
+
+/*payment*/
+  .payment-detail{
+    display: flex;
+    justify-content: center;
+  }
+
+  .desc-total{
+    width: 30%;
+    color: grey;
+    padding-left: 10vh;
+    text-align: start;
+  }
+
+  .num-total{
+    width: 50%;
+    color: grey;
+    text-align: end;
+    padding-right: 10vh;
+  }
+
+  hr{
+    border: none;
+    border-top: 1px dashed #000;
+  }
+
+  .button{
+    width: 100%;
+    margin: 1px;
+  }
+
+  .button .bils{
+    width: 50%;
+    background-color: rgb(15, 49, 15);
+    color: white;
+    height: 5vh;
+    border: 1px solid white;
+    border-radius: 10px;
+    font-size: 12px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+
+  .button .clear{
+    width: 50%;
+    background-color: red;
+    color: white;
+    height: 5vh;
+    border: 1px solid white;
+    border-radius: 10px;
+    font-size: 12px;
+    font-weight: bold;
+    cursor: pointer;
+  }

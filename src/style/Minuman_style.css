@@ -1,0 +1,43 @@
+.minuman-card{
+    /*background-color: grey;*/
+    width: 100%;
+    height: 70%;
+    display: grid;
+    grid-template-columns: repeat(3, 0.1fr);
+    gap: 10px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.minuman-detail{
+    background-color: white;
+    width: 100%;
+    box-shadow: 10px 10px 10px 10px rgba(0,0,0,0.1);
+    border-radius: 10px;
+}
+
+.minuman-detail img{
+    width: 200px;
+    height: 150px;
+    margin-top: 2vh;
+}
+
+.minuman-detail h3{
+    margin-bottom: 2px;
+}
+
+.minuman-detail .minuman-button{
+    width: 40%;
+    height: 3vh;
+    background-color: rgb(15, 49, 15);
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    margin-bottom: 3vh;
+}
+
+.minuman-detail .minuman-button:hover{
+    background-color: white;
+    color: rgb(15, 49, 15);
+    border: 1px solid rgb(15, 49, 15);
+}
